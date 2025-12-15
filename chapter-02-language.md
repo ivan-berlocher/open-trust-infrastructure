@@ -552,6 +552,8 @@ This is Chalmers' "hard problem of consciousness":
 
 Formal systems—ontologies, logics, knowledge graphs—capture **structure and relation**. They do not capture **phenomenal content**. The word "orange" in an RDF triple *designates* without *instantiating* the experience.
 
+In classical Latin terms: RDF captures the *quod*—the fact that something is the case, the propositional content—but never the *qualis*—the manner in which it is experienced. This ancient distinction (quod = "that which"; qualis = "of what kind") maps precisely onto the modern divide between formal representation and phenomenal content.
+
 **Implication for Open Trust Infrastructure:**
 
 When an AI system uses language, it manipulates symbols that, for humans, are *grounded* in qualia. The same word evokes different experiences in different minds. Trustworthy AI must acknowledge this gap: it can represent, reason, and communicate—but it does not (as far as we know) *feel* the meanings it handles.
