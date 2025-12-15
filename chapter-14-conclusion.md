@@ -528,6 +528,61 @@ Open reasoning shifts the question from "true or false?" to:
 | Unauditable moderation | Verifiable reasoning traces |
 | "The algorithm decided" | Attributable responsibility |
 
+
+---
+
+**The deeper insight: Propagation as Action**
+
+The real problem is not that platforms create misinformation. It is that **responsibility evaporates as messages propagate**:
+
+- "I didn't invent it."
+- "I just reposted."
+- "My neighbor shared it."
+- "The algorithm surfaced it."
+
+Result: *collective intelligence at maximum, individual responsibility at minimum.*
+
+This is a **structural flaw**, not a moral one. The fix is not censorship or truth-arbitration, but **traceability**:
+
+> **Reposting is not copying. It is a decision to amplify.**
+> **Decisions require traceability.**
+
+Sharing is not neutral repetition. To share is to attest — partially, contextually — that something deserves attention, diffusion, or trust. Even without claiming "this is true," one claims "this merits propagation."
+
+**Information Transaction Model:**
+
+```
+┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+│  Author  │───▶│  Sharer  │───▶│  Sharer  │───▶│  Reader  │
+│ (claim)  │    │ (repost) │    │ (repost) │    │ (consume)│
+└──────────┘    └──────────┘    └──────────┘    └──────────┘
+     │               │               │               │
+     ▼               ▼               ▼               ▼
+  ┌─────────────────────────────────────────────────────┐
+  │              Lineage Graph (append-only)            │
+  │  Each node = actor (human or agent)                 │
+  │  Each edge = accountable action (post, repost, rank)│
+  │  Each action = hash + signature + timestamp         │
+  └─────────────────────────────────────────────────────┘
+```
+
+No blockchain required — just **append-only logs**, **cryptographic hashes**, and **external auditability**. Blockchain-like properties without blockchain dogma.
+
+**What changes for the user:**
+
+| Today | With Propagation Traceability |
+|-------|-------------------------------|
+| Sharing is cognitively free | Sharing = assuming micro-responsibility |
+| No visible consequence | Traceable, reversible, visible |
+| No collective memory | Lineage preserved |
+
+Not "you are guilty" — but: **"You are part of the chain."**
+
+> **Collective misinformation is not caused by platforms alone.**
+> **It emerges when individual acts of propagation carry no trace of responsibility.**
+
+This is not about judging truth. It is about making it **impossible not to know that one acts**.
+
 **Important limit:** Open reasoning does not "solve" truth in gray zones (geopolitics, opinion, rumor). It guarantees something else: *when the system acts, it must make its reasons examinable and its actions auditable.*
 
 This is "say what you do, do what you say" applied to ranking and moderation at scale.
