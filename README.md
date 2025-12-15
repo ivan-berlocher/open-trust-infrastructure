@@ -1,5 +1,7 @@
 # Open Trust Infrastructure
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17940484.svg)](https://doi.org/10.5281/zenodo.17940484)
+
 **Author:** Ivan Berlocher
 
 ---
