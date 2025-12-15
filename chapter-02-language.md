@@ -797,7 +797,9 @@ Natural languages are **alive**—carried by humans, evolving through use, dying
 > *"Now the whole earth had one language and the same words... Then they said, 'Come, let us build ourselves a city and a tower with its top in the heavens.'... The LORD confused the language of all the earth."*
 > — Genesis 11:1-9
 
-The Tower of Babel is humanity's foundational myth about language:
+The Tower of Babel is humanity's foundational myth about language.
+
+*Note: This narrative is used as a conceptual metaphor, not a theological claim.*
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
