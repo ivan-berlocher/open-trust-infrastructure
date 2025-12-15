@@ -524,6 +524,12 @@ The answer developed throughout this book is not a new algorithm, nor a larger m
 >
 > *Ethics by construction, not by intention.*
 
+> **Intelligence may be collective. Responsibility cannot be.**
+>
+> Collective intelligence can emerge from coordination — systems thinking together, amplifying capabilities, optimizing at scale. But responsibility must remain individual, explicit, and traceable. The phrase "the system decided" is not an explanation; it is an evasion. Every action in a collective must decompose into accountable decisions. Every delegation must be reversible. Every chain of execution must terminate in someone who answers.
+>
+> *There is no such thing as collective responsibility — only collective execution over individual accountability.*
+
 **Trustworthy intelligence requires structure.**
 
 It requires internal representations that are explicit, compositional, and inspectable—a language of thought in which reasoning is not merely performed, but made visible. It requires systems whose decisions can be traced, questioned, corrected, and revised. In short, it requires architectures that acknowledge that trust is not a statistical property, but a normative one.
