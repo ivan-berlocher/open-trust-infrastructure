@@ -119,7 +119,7 @@ The evolution from IoT to IoA (Chapter 13.8) crystallizes the problem:
 When **things** malfunction, we debug hardware.
 When **agents** malfunction, we need to understand *decisions*.
 
-This requires a new kind of openness: not just open code or open data, but **open reasoning**.
+This requires a new kind of openness: not merely open code or open data, but **open reasoning** — where systems state their intentions explicitly and act in accordance with them.
 
 ---
 
