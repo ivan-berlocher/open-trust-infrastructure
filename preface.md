@@ -46,7 +46,9 @@ These are not merely engineering inconveniences. They are theoretical challenges
 
 This book advances a central thesis:
 
-> **Building trustworthy intelligent systems requires structured internal representations — a "language of thought" — combined with architectural principles that make reasoning processes visible, verifiable, and modifiable.**
+> **Building trustworthy intelligent systems requires structured internal representations—a language of thought—together with architectural constraints that render reasoning processes explicit, inspectable, verifiable, and modifiable.**
+>
+> In contrast to purely end-to-end or opaque statistical models, this thesis argues that **trust in intelligent systems is fundamentally an architectural property, not an emergent byproduct of scale or performance**.
 
 This thesis synthesizes three intellectual traditions:
 
