@@ -557,6 +557,249 @@ Gesture Sequence: [click(x1,y1), paste_shortcut, click(x2,y2), click(x3,y3), typ
 OS Events → Application → System Calls → Disk Write
 ```
 
+
+#### 13.4.8 The Evolution of Operating Systems: From Static to Intelligent
+
+The history of computing can be read as a progressive shift in **who adapts to whom**:
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│            THE GREAT INVERSION: MACHINE ↔ HUMAN                     │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   1950s────────────────────────────────────────────────────2030s    │
+│                                                                     │
+│   HUMAN ADAPTS                              MACHINE ADAPTS          │
+│   TO MACHINE                                TO HUMAN                │
+│       │                                          │                  │
+│       ▼                                          ▼                  │
+│   ════════════════════════════════════════════════════════════      │
+│                                                                     │
+│   Punch cards    CLI    GUI    Touch    Voice    Intent             │
+│       │           │      │       │        │         │               │
+│       └───────────┴──────┴───────┴────────┴─────────┘               │
+│                                                                     │
+│   "Learn the      "Learn the    "Learn     "Just      "Just         │
+│    machine"        commands"     the app"   speak"     think"       │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**Era 1: Hardware-Centric (1950s–1970s)**
+
+The user adapts completely to the machine.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    HARDWARE-CENTRIC ERA                             │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   USER must know:                                                   │
+│   • Machine language / assembly                                     │
+│   • Physical card layout                                            │
+│   • Hardware addresses                                              │
+│   • Batch job submission                                            │
+│                                                                     │
+│   INSTALLATION: Physical rewiring, card decks                       │
+│   PERIPHERALS: Hardwired, single-purpose                            │
+│   SOFTWARE: Monolithic, machine-specific                            │
+│                                                                     │
+│   Cognitive load: MAXIMUM on human                                  │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**Era 2: OS-Centric / Static (1970s–1990s)**
+
+The OS provides abstraction, but users must learn its language.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    OS-CENTRIC ERA (Static)                          │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   USER must know:                                                   │
+│   • Command-line syntax (ls, cd, grep, chmod)                       │
+│   • File system hierarchy                                           │
+│   • Device drivers & configuration                                  │
+│   • Installation procedures                                         │
+│                                                                     │
+│   INSTALLATION: Manual drivers, compile from source                 │
+│   PERIPHERALS: "Plug and pray" — manual config                      │
+│   SOFTWARE: ./configure && make && make install                     │
+│                                                                     │
+│   $ sudo apt-get install libfoo-dev                                 │
+│   $ export LD_LIBRARY_PATH=/usr/local/lib                           │
+│   $ ./configure --with-foo=/usr/local                               │
+│                                                                     │
+│   Cognitive load: HIGH on human                                     │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**Era 3: Application-Centric (1990s–2015)**
+
+GUI and app stores shift some burden, but users must **learn each application**.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    APP-CENTRIC ERA                                  │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   USER must know:                                                   │
+│   • Each application's interface                                    │
+│   • Menu structures (File → Export → PDF...)                        │
+│   • Keyboard shortcuts per app                                      │
+│   • Where is that feature? Which menu?                              │
+│                                                                     │
+│   INSTALLATION: Double-click .exe / drag to Applications            │
+│   PERIPHERALS: Plug-and-play (drivers auto-detected)                │
+│   SOFTWARE: App stores, one-click install                           │
+│                                                                     │
+│   "To insert a table in Word: Insert → Table → 3×3"                 │
+│   "To insert a table in Google Docs: Insert → Table → 3×3"          │
+│   "To insert a table in Notion: /table"                             │
+│   "To insert a table in Markdown: | col1 | col2 |..."               │
+│                                                                     │
+│   100 apps = 100 interfaces to learn                                │
+│                                                                     │
+│   Cognitive load: MEDIUM-HIGH on human                              │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**The Problem**: Users become **app specialists**, not task specialists.
+
+> "I don't know how to do X."  
+> "I know how to do X *in Word*, but not in Pages."
+
+Knowledge is trapped in **application-specific muscle memory**.
+
+**Era 4: User-Centric / Intelligent (2020s–)**
+
+The paradigm inverts: **the system learns the user**, not the reverse.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    USER-CENTRIC ERA (Intelligent)                   │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   USER expresses:                                                   │
+│   • Intent: "Make a table comparing X and Y"                        │
+│   • Goal: "Book me a flight to Paris next week"                     │
+│   • Constraint: "Under $500, morning departure"                     │
+│                                                                     │
+│   AI handles:                                                       │
+│   • Which app to use (or create)                                    │
+│   • Which menu/API to invoke                                        │
+│   • Format conversion                                               │
+│   • Cross-app coordination                                          │
+│                                                                     │
+│   USER: "Add a table here"                                          │
+│   AI:   [Detects context: Google Docs]                              │
+│         [Invokes: Insert → Table]                                   │
+│         [Infers: 3 columns based on prior content]                  │
+│         Done.                                                       │
+│                                                                     │
+│   INSTALLATION: Auto-detected, auto-configured                      │
+│   PERIPHERALS: Self-describing, AI-mediated                         │
+│   SOFTWARE: On-demand, intent-driven                                │
+│                                                                     │
+│   Cognitive load: MINIMAL on human                                  │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**The Capability Matrix Across Eras**:
+
+| Capability | Hardware | OS-Static | App-Centric | User-Centric |
+|------------|----------|-----------|-------------|--------------|
+| **Install hardware** | Rewire | Driver disk | Plug & play | Auto-detect + configure |
+| **Install software** | N/A | Compile | App store | On-demand / invisible |
+| **Learn interface** | Machine code | CLI syntax | GUI per app | Natural language |
+| **Execute task** | Program it | Script it | Click through menus | State intent |
+| **Cross-app workflow** | Impossible | Pipes, scripts | Copy-paste | AI orchestrates |
+| **Who adapts?** | Human 100% | Human 90% | Human 60% | Human 10% |
+
+**What Changes Technically?**
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│              FROM APP-CENTRIC TO USER-CENTRIC                       │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   APP-CENTRIC                        USER-CENTRIC                   │
+│                                                                     │
+│   User → App → OS → Hardware         User → AI → Apps → OS → HW     │
+│                                            │                        │
+│   User must know:                          └─ AI knows:             │
+│   • App interfaces                         • All app interfaces     │
+│   • Menu locations                         • API mappings           │
+│   • File formats                           • User preferences       │
+│   • Keyboard shortcuts                     • Context & history      │
+│                                                                     │
+│   USER learns 100 apps                USER states 1 intent          │
+│   APP is the interface                AI is the interface           │
+│   Knowledge in USER's head            Knowledge in AI's model       │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**The AI as Universal Adapter**:
+
+The intelligent OS doesn't eliminate apps—it makes them **invisible**.
+
+```
+USER: "Resize this image to 800×600 and make the background transparent"
+
+OLD WAY:
+1. Open Photoshop (or GIMP, or Preview, or...)
+2. Find "Image Size" (Image → Image Size? Edit → Resize?)
+3. Enter dimensions
+4. Find "Magic Wand" tool
+5. Select background
+6. Delete (or "Select → Inverse → Copy → New with transparent...")
+7. Export as PNG
+
+NEW WAY:
+1. State intent
+2. Done.
+
+The AI:
+- Selects appropriate tool (or API)
+- Executes the operations
+- Handles edge cases
+- Returns result
+```
+
+**Definition 13.9 (Intelligent Operating System)**: An OS layer that:
+1. **Interprets intent** rather than commands
+2. **Learns user patterns** and preferences
+3. **Orchestrates applications** transparently
+4. **Adapts to the user** rather than requiring user adaptation
+
+**The Inversion Principle**:
+
+> In the hardware era, humans compiled themselves into machine language.  
+> In the intelligent era, machines compile themselves into human language.
+
+This is not merely convenience. It is a **fundamental redistribution of cognitive labor**.
+
+**Implications for the Internet of Agents (Chapter 14)**:
+
+If the OS becomes an intelligent mediator:
+- Apps become **capabilities**, not interfaces
+- Users become **goal-specifiers**, not tool-operators
+- Agents become **the new applications**—autonomous, composable, coordinating
+
+The question shifts from:
+> "How do I use this app?"
+
+To:
+> "How do I trust this agent?"
+
+This is why **trust infrastructure** (Chapter 14) becomes the critical layer. The intelligent OS abstracts away *how* things are done. Trust protocols ensure *whether* they should be done, and *by whom*.
+
 ---
 
 ### 13.5 Toward Intent Languages
