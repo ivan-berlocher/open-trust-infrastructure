@@ -519,6 +519,11 @@ This work began with a simple but demanding question: *how can we build intellig
 
 The answer developed throughout this book is not a new algorithm, nor a larger model, nor a promise of emergent understanding through scale. It is an architectural claim.
 
+> **This work does not propose an ethical framework.**
+> **It proposes an architectural constraint that makes unethical behavior visible, contestable, and correctable.**
+>
+> *Ethics by construction, not by intention.*
+
 **Trustworthy intelligence requires structure.**
 
 It requires internal representations that are explicit, compositional, and inspectable—a language of thought in which reasoning is not merely performed, but made visible. It requires systems whose decisions can be traced, questioned, corrected, and revised. In short, it requires architectures that acknowledge that trust is not a statistical property, but a normative one.
