@@ -515,17 +515,43 @@ The path forward is not to make AI less capable, but to make it **genuinely trus
 
 ### Closing
 
-> *"The measure of intelligence is not the ability to act,*
-> *but the ability to explain why you act,*
-> *to know when you might be wrong,*
-> *and to defer when you are uncertain.*
-> 
-> *The future of AI is not artificial general intelligence.*
-> *It is artificial **accountable** intelligence.*
-> 
-> *Agents propose. Users dispose.*
-> *Trust, but verify.*
-> *Always."*
+This work began with a simple but demanding question: *how can we build intelligent systems that deserve our trust?*
+
+The answer developed throughout this book is not a new algorithm, nor a larger model, nor a promise of emergent understanding through scale. It is an architectural claim.
+
+**Trustworthy intelligence requires structure.**
+
+It requires internal representations that are explicit, compositional, and inspectable—a language of thought in which reasoning is not merely performed, but made visible. It requires systems whose decisions can be traced, questioned, corrected, and revised. In short, it requires architectures that acknowledge that trust is not a statistical property, but a normative one.
+
+Modern AI systems have demonstrated extraordinary capabilities. Yet capability alone is not sufficient. When internal representations are opaque, reasoning becomes inaccessible; when reasoning is inaccessible, errors cannot be meaningfully corrected; and when correction is impossible, trust collapses into faith or habit. This is not a technical inconvenience. It is a structural limitation.
+
+Throughout this book, we have argued that this limitation is not accidental. It follows directly from architectural choices that privilege end-to-end optimization over explicit representation. Such systems may perform impressively, but they cannot explain themselves in terms that align with human understanding. They manipulate symbols without grounding them in accountable reasoning processes.
+
+By contrast, architectures grounded in structured representations—drawing on the Language of Thought tradition, cognitive architectures, and formal semantics—offer a different path. They do not deny learning or statistical methods; they situate them within systems whose internal states can be examined and whose inferences can be justified.
+
+**Crucially, this work has also insisted on a boundary.**
+
+No formal system, however expressive, captures lived experience itself. Symbols describe; they do not feel. Language represents; it does not live. Intelligence implemented in machines remains representation without existential stakes—self-description without self-knowledge, intelligence without wisdom.
+
+Acknowledging this boundary is not a weakness. It is a condition of responsibility.
+
+Trustworthy systems are not those that claim understanding they do not possess, but those whose limits are explicit, whose behavior is constrained, and whose impact on human lives can be anticipated and governed.
+
+**The task ahead is therefore not to make machines more human, but to make our architectures more honest.**
+
+Honest about what they represent.
+Honest about how they reason.
+Honest about where responsibility ultimately lies.
+
+---
+
+If this work succeeds, it will not have solved intelligence.
+
+It will have clarified what is at stake when we build it.
+
+That clarity is not an endpoint.
+
+It is a foundation.
 
 ---
 
