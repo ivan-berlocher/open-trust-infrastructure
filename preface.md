@@ -147,6 +147,37 @@ The goal is not to replace these traditions but to synthesize them into a cohere
 
 ---
 
+
+## Policy Implications: Open Architectures and AI Sovereignty
+
+From a policy perspective, this work suggests that Europe's strategic opportunity in artificial intelligence does not lie in competing model-for-model with hyperscale providers, but in shaping the architectural foundations upon which intelligent systems are built and governed.
+
+Trustworthy AI cannot be reduced to compliance checklists or post-hoc controls; it must be grounded in system design itself.
+
+Architectures with explicit internal representations, inspectable reasoning processes, and well-defined interfaces enable:
+- **Transparency**: Decisions can be traced and explained
+- **Accountability**: Responsibility can be assigned and enforced
+- **Long-term autonomy**: Organizations retain control over their systems
+
+Such properties align naturally with Europe's historical strengths in standards, public infrastructure, and rights-based governance.
+
+Rather than locking intelligence into opaque, provider-dependent stacks, this approach supports:
+- **Composability**: Systems built from interchangeable components
+- **Auditability**: External verification of internal processes
+- **Data sovereignty**: Organizations retain capacity to understand, modify, and take responsibility for deployed systems
+
+> **AI sovereignty is not achieved through isolation or protectionism, but through open architectures that make dependence explicit, substitution possible, and trust structurally enforceable.**
+
+This is the logic of the open Web, of W3C standards, of infrastructure neutrality. It is sovereignty through understanding, not through authoritarian control.
+
+The choice is not between European AI and American AI. It is between:
+- Architectures that concentrate power in those who control opaque models
+- Architectures that distribute power to those who understand and can modify their systems
+
+This work argues for the second path—not because it is European, but because it is the only path compatible with accountable intelligence.
+
+---
+
 ## Prerequisites
 
 This book assumes familiarity with:
