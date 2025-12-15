@@ -654,6 +654,10 @@ Trustworthy systems are not those that claim understanding they do not possess, 
 
 **The task ahead is therefore not to make machines more human, but to make our architectures more honest.**
 
+These principles are implemented in a minimal reference architecture, Harmonia, which demonstrates how semantic interpretation and deterministic execution can be cleanly separated in practice.^1
+
+^1 Harmonia is provided as a reference implementation, not as a required dependency. See: https://doi.org/10.5281/zenodo.17932605
+
 Honest about what they represent.
 Honest about how they reason.
 Honest about where responsibility ultimately lies.
