@@ -1852,7 +1852,165 @@ The path from representation to execution requires:
 - **Agentic Web**: Web of agents exchanging intents and capabilities
 - **Layered Stack**: Multiple languages with formal translations between layers
 
+
 ---
+
+### 13.5 The Three-Layer Architecture: Things, Actions, and Experience
+
+The previous sections reveal a fundamental architectural pattern that underlies all trustworthy systems. This pattern separates concerns into three distinct layers, each with its own ontology and mode of engagement:
+
+**Layer 1: Static — Things (Quod)**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     THE STATIC LAYER                            │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   Objects          States           Facts                       │
+│   ────────         ──────           ─────                       │
+│   Entities         Conditions       Propositions                │
+│   Resources        Properties       Assertions                  │
+│   Documents        Values           Relations                   │
+│                                                                 │
+│   Ontologies       Knowledge Graphs      Persistent Data        │
+│                                                                 │
+│   ➡️  WHAT IS THE CASE (quod)                                   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+This layer captures the *quod*—the fact that something is the case. It is:
+- **Inspectable**: Every element can be examined
+- **Stable**: Changes are explicit and traceable
+- **Declarative**: Describes *what*, not *how*
+- **Verifiable**: Consistency can be checked formally
+
+RDF, OWL, knowledge graphs, databases—all operate here.
+
+**Layer 2: Dynamic — Actions (Causal Interaction)**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     THE DYNAMIC LAYER                           │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   Actions          Events           Transitions                 │
+│   ───────          ──────           ───────────                 │
+│   Operations       Triggers         State changes               │
+│   API calls        Notifications    Transformations             │
+│   Commands         Messages         Effects                     │
+│                                                                 │
+│   Execution        Coordination         Real-world impact       │
+│                                                                 │
+│   ➡️  WHAT CHANGES THE CASE                                     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+This layer captures *causal power*—the ability to modify the world. It is:
+- **Temporal**: Actions occur in time
+- **Irreversible** (often): Effects cannot always be undone
+- **Observable**: We can trace what happened
+- **Risky**: Actions have consequences
+
+PDDL, APIs, transactions, workflows—all operate here.
+
+**Layer 3: Experiential — Qualia (Outside the System)**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                   THE EXPERIENTIAL LAYER                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   Human perception     Lived experience      Meaning as felt    │
+│   ────────────────     ────────────────      ──────────────     │
+│   Seeing               Understanding         Mattering          │
+│   Hearing              Interpreting          Caring             │
+│   Sensing              Contextualizing       Trusting           │
+│                                                                 │
+│   ⚠️  THIS LAYER IS NOT IN THE SYSTEM                           │
+│   ⚠️  IT EXISTS IN THE HUMANS WHO USE IT                        │
+│                                                                 │
+│   ➡️  WHAT IT IS LIKE (qualis)                                  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+This layer captures the *qualis*—the manner in which things are experienced. It is:
+- **Subjective**: Accessible only to the experiencing subject
+- **Private**: Cannot be directly observed or transmitted
+- **Irreducible**: Cannot be fully captured in formal representations
+- **Essential**: The reason systems matter at all
+
+No formal system captures this layer. But every formal system is *judged* by it.
+
+**The Architectural Principle**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│                    ┌─────────────────┐                          │
+│                    │     QUALIA      │  ← Outside the system    │
+│                    │  (Experience)   │                          │
+│                    └────────┬────────┘                          │
+│                             │                                   │
+│           Trust arises here │  (coherence between               │
+│                             │   representation & lived effect)  │
+│                    ╔════════╧════════╗                          │
+│        ╔═══════════╣    ACTIONS      ╠═══════════╗              │
+│        ║           ║   (Dynamic)     ║           ║              │
+│        ║           ╚════════╤════════╝           ║              │
+│        ║                    │                    ║              │
+│        ║                    │                    ║              │
+│        ║           ┌────────┴────────┐           ║              │
+│        ║           │     THINGS      │           ║              │
+│        ║           │    (Static)     │           ║              │
+│        ║           └─────────────────┘           ║              │
+│        ║                                         ║              │
+│        ╚═══════════════════════════════════════════              │
+│                     Inside the system                           │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Theorem 13.5a (Qualia Boundary)**: The system never contains qualia, but it must be architected with awareness of their existence.
+
+This is not a limitation—it is a design principle. The system's job is to:
+1. **Represent** things accurately (Layer 1)
+2. **Act** on things reliably (Layer 2)
+3. **Acknowledge** that the meaning of its actions lives in Layer 3
+
+**Implications for Trust**
+
+Trust does not emerge from Things alone—a perfect knowledge graph does not guarantee trust.
+
+Trust does not emerge from Actions alone—reliable execution does not guarantee trust.
+
+Trust emerges from the **coherence between representations and lived effects**:
+
+| Layer | What the user sees | Trust question |
+|-------|-------------------|----------------|
+| Things | "The system knows X" | "Is X accurate?" |
+| Actions | "The system did Y" | "Was Y what I intended?" |
+| Experience | "I feel Z" | "Does Z match my expectations?" |
+
+When the answers align—when what is represented, what is done, and what is experienced are coherent—trust can form.
+
+**The UX Consequence**
+
+This three-layer model maps directly to user interface design:
+
+| Layer | UX Pattern | User experience |
+|-------|-----------|-----------------|
+| Things (Home) | Dashboard, knowledge view | "I see what the system knows" — Stable, inspectable |
+| Actions (Activity) | Action log, real-time feed | "I see what the system does" — Engaging, temporal |
+| Experience (Trust) | Emerges from coherence | "I believe because I verify" — Neither blind nor skeptical |
+
+This is the architecture of Open Trust Infrastructure:
+- **Show** the things (transparency of representation)
+- **Trace** the actions (transparency of execution)
+- **Respect** the experience (humility about what we cannot capture)
+
 
 ### Exercises
 
