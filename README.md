@@ -16,13 +16,15 @@ The text develops a full cognitive architecture, from representation and reasoni
 
 ## 📖 Start Here
 
+**Recommended path:** [Preface](preface.md) → [Chapter 13](chapter-13-representation-execution.md) → [Chapter 14](chapter-14-conclusion.md)
+
+If you want the full reasoning chain, continue with the remaining chapters.
+
 | Entry Point | Description |
 |-------------|-------------|
 | [Preface](preface.md) | Context, acknowledgments, and structure |
 | [Chapter 13](chapter-13-representation-execution.md) | From compilation to OS to the Web — execution infrastructure |
 | [Chapter 14](chapter-14-conclusion.md) | The Internet of Agents and the proposal for an International Consortium of Trust (ICT) |
-
-**Recommended path:** [Preface](preface.md) → [Chapter 13](chapter-13-representation-execution.md) → [Chapter 14](chapter-14-conclusion.md)
 
 ---
 
@@ -56,15 +58,13 @@ The text develops a full cognitive architecture, from representation and reasoni
 
 This work traces connections across:
 
-```
-Philosophy          →    Infrastructure
-────────────────────────────────────────
-Peirce (semiotics)  →    RDF triples
-Frege (sense/ref)   →    URI/resource
-Tarski (meta-lang)  →    RDFS self-description
-Gödel (limits)      →    Halting problem
-Babel (diversity)   →    Interoperability
-```
+| Philosophy | Infrastructure |
+|------------|----------------|
+| Peirce (semiotics) | RDF triples |
+| Frege (sense/reference) | URI / resource |
+| Tarski (meta-language) | RDFS self-description |
+| Gödel (limits) | Halting problem |
+| Babel (diversity) | Interoperability |
 
 ---
 
@@ -73,4 +73,4 @@ Babel (diversity)   →    Interoperability
 Licensed under [CC-BY 4.0](LICENSE). Attribution required.
 
 **Citation:**
-> Berlocher, I. (2025). *Open Trust Infrastructure: Language, Cognition, and Trust in Agentic Systems*.
+> Berlocher, I. (2025). *Open Trust Infrastructure: Language, Cognition, and Trust in Agentic Systems*. Version 1.1.
