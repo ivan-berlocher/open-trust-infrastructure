@@ -134,6 +134,7 @@ This work builds on foundations laid by researchers across artificial intelligen
 - **Ron Sun** — Whose CLARION revealed the implicit/explicit knowledge distinction
 
 ### Language and Formal Foundations
+- **Gottfried Wilhelm Leibniz** (1646–1716) — Who dreamed of a characteristica universalis, a universal language of thought
 - **Gottlob Frege** (1848–1925) — Who distinguished sense (Sinn) from reference (Bedeutung), foundational for semantic theory
 - **Ferdinand de Saussure** (1857–1913) — Who founded structural linguistics and defined the sign as signifier/signified
 - **Charles Sanders Peirce** (1839–1914) — Whose semiotics (icon/index/symbol) provides the philosophical foundation for understanding representation
