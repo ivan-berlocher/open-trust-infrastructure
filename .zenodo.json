@@ -1,0 +1,49 @@
+{
+  "title": "Open Trust Infrastructure: Language, Cognition, and Trust in Agentic Systems",
+  "description": "An academic English textbook exploring the philosophical and technical foundations for building trustworthy AI systems. Covers linguistics, semiotics, knowledge representation, identity, interaction patterns, ethics, privacy, ontologies, formal logic, trust architectures, transparency, and governance. Designed for the W3C/Open Data community and researchers working on semantic web, linked data, and agentic AI systems.",
+  "creators": [
+    {
+      "name": "Berlocher, Ivan",
+      "affiliation": "Independent Researcher",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "book",
+  "publication_date": "2025-12-15",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "artificial intelligence",
+    "trust",
+    "semantic web",
+    "knowledge representation",
+    "ontologies",
+    "RDF",
+    "linked data",
+    "ethics",
+    "privacy",
+    "governance",
+    "agentic systems",
+    "language",
+    "cognition",
+    "formal logic",
+    "W3C",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ivan-berlocher/open-trust-infrastructure",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "notes": "Version 1.1 includes Peirce-to-RDF semiotic bridge, self-reference section (Tarski, Gödel, RDFS), and OS evolution paradigms (Hardware-Centric to User-Centric/Intelligent).",
+  "version": "1.1.0",
+  "language": "eng"
+}
