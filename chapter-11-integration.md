@@ -637,3 +637,7 @@ A well-integrated system is more than the sum of its parts — components enable
 ---
 
 *End of Chapter 11*
+
+---
+
+[← Previous: Chapter 10](chapter-10-metacognition.md) | [Next: Chapter 12 →](chapter-12-open-problems.md) | [Table of Contents](README.md)

@@ -1897,3 +1897,7 @@ The path from representation to execution requires:
 ---
 
 *End of Chapter 13*
+
+---
+
+[← Previous: Chapter 12](chapter-12-open-problems.md) | [Next: Chapter 14 →](chapter-14-conclusion.md) | [Table of Contents](README.md)

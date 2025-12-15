@@ -570,3 +570,7 @@ Modern architectures integrate neural and symbolic components while preserving t
 ---
 
 *End of Chapter 4*
+
+---
+
+[← Previous: Chapter 3](chapter-03-transparency.md) | [Next: Chapter 5 →](chapter-05-perception.md) | [Table of Contents](README.md)

@@ -489,3 +489,7 @@ The next chapter introduces cognitive architectures that embody these transparen
 ---
 
 *End of Chapter 3*
+
+---
+
+[← Previous: Chapter 2](chapter-02-language.md) | [Next: Chapter 4 →](chapter-04-architectures.md) | [Table of Contents](README.md)

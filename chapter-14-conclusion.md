@@ -532,3 +532,7 @@ The path forward is not to make AI less capable, but to make it **genuinely trus
 *End of Chapter 14*
 
 *End of Book*
+
+---
+
+[← Previous: Chapter 13](chapter-13-representation-execution.md) | [Table of Contents](README.md)

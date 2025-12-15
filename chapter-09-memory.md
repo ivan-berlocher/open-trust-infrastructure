@@ -508,3 +508,7 @@ Current ML systems lack genuine memory, which limits their ability to learn from
 ---
 
 *End of Chapter 9*
+
+---
+
+[← Previous: Chapter 8](chapter-08-action.md) | [Next: Chapter 10 →](chapter-10-metacognition.md) | [Table of Contents](README.md)

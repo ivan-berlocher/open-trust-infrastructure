@@ -1717,3 +1717,7 @@ The next chapter examines how LoT representations can be made accessible through
 ---
 
 *End of Chapter 2*
+
+---
+
+[← Previous: Chapter 1](chapter-01-crisis.md) | [Next: Chapter 3 →](chapter-03-transparency.md) | [Table of Contents](README.md)

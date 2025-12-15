@@ -428,3 +428,7 @@ Planning is reasoning about the future — it requires models of actions, states
 ---
 
 *End of Chapter 8*
+
+---
+
+[← Previous: Chapter 7](chapter-07-reasoning.md) | [Next: Chapter 9 →](chapter-09-memory.md) | [Table of Contents](README.md)

@@ -1070,3 +1070,7 @@ This is not a controversial claim among those who think carefully about the foun
 ---
 
 *End of Chapter 6*
+
+---
+
+[← Previous: Chapter 5](chapter-05-perception.md) | [Next: Chapter 7 →](chapter-07-reasoning.md) | [Table of Contents](README.md)

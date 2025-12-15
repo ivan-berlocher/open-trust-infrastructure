@@ -741,3 +741,7 @@ R2: reports_to(X, Y) ∧ reports_to(Y, Z) → indirect_reports(X, Z)
 ---
 
 *End of Chapter 7*
+
+---
+
+[← Previous: Chapter 6](chapter-06-learning-illusion.md) | [Next: Chapter 8 →](chapter-08-action.md) | [Table of Contents](README.md)

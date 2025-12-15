@@ -308,3 +308,7 @@ The next chapter introduces the theoretical foundation for such representations:
 ---
 
 *End of Chapter 1*
+
+---
+
+[Next: Chapter 2 →](chapter-02-language.md) | [Table of Contents](README.md)

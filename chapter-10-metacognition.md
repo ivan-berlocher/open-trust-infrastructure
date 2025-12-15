@@ -515,3 +515,7 @@ Building metacognitive AI requires explicit architectural support for self-monit
 ---
 
 *End of Chapter 10*
+
+---
+
+[← Previous: Chapter 9](chapter-09-memory.md) | [Next: Chapter 11 →](chapter-11-integration.md) | [Table of Contents](README.md)

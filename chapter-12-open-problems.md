@@ -420,3 +420,7 @@ That is the work ahead.
 ---
 
 *End of Book*
+
+---
+
+[← Previous: Chapter 11](chapter-11-integration.md) | [Next: Chapter 13 →](chapter-13-representation-execution.md) | [Table of Contents](README.md)

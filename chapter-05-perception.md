@@ -575,3 +575,7 @@ Grounding is essential for meaning — without it, symbols are empty.
 ---
 
 *End of Chapter 5*
+
+---
+
+[← Previous: Chapter 4](chapter-04-architectures.md) | [Next: Chapter 6 →](chapter-06-learning-illusion.md) | [Table of Contents](README.md)
