@@ -14,4 +14,8 @@ The text develops a full cognitive architecture, from representation and reasoni
 
 ---
 
-**Recommended entry point:** Chapter 13 → Chapter 14
+**Start here:** Chapter 13 → Chapter 14
+
+---
+
+Licensed under CC-BY 4.0. Attribution required.
