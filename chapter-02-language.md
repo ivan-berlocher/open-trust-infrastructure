@@ -400,6 +400,117 @@ The sign refers to an object, but only through an interpretant (the effect on th
 - Index: sign(x, y) where x is causally connected to y
 - Symbol: sign(x, y) where x refers to y by convention
 
+**From Semiotic Triads to RDF Triples: The Web's Ontological Infrastructure**
+
+Peirce's triadic structure has a direct descendant in web architecture: **RDF (Resource Description Framework)**.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│             PEIRCE'S TRIAD  →  RDF TRIPLE                           │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   SEMIOTICS (Peirce 1903)          WEB SEMANTICS (W3C 1999–)        │
+│                                                                     │
+│   Sign ─────────────────────────── Subject                          │
+│     │                                │                              │
+│     └─→ Object ─────────────────── Object                           │
+│           │                           │                             │
+│           └─→ Interpretant ──────── Predicate                       │
+│                                                                     │
+│   "The sign refers to              "The subject relates to          │
+│    the object via the               the object via the              │
+│    interpretant"                    predicate"                      │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+An RDF triple is the atomic unit of semantic web data:
+
+```
+    (Subject)  ──[Predicate]──→  (Object)
+    
+    :TimBernersLee  :invented  :WorldWideWeb .
+    :Paris          :capitalOf :France .
+    :Peirce         :influenced :RDF .
+```
+
+**The Philosophical Lineage**:
+
+| Thinker | Structure | Contribution |
+|---------|-----------|--------------|
+| **Aristotle** | Subject–Predicate | Logic's basic form |
+| **Frege** | Concept–Object–Sense | Modern semantics |
+| **Peirce** | Sign–Object–Interpretant | Pragmatic semiotics |
+| **Berners-Lee** | Subject–Predicate–Object | Web ontology |
+
+The progression is not accidental. Each builds on the insight that **meaning requires at least three elements**—binary relations are insufficient.
+
+**Why Triples, Not Pairs?**
+
+A pair (subject, object) lacks context. Consider:
+
+```
+("Paris", "France")         → What relation? Capital? Part of? Located in?
+("Tim", "Web")              → Created? Uses? Studies?
+```
+
+The predicate is not optional—it is the **meaning carrier**. This mirrors Peirce: the interpretant is not an add-on but the mechanism by which signs signify at all.
+
+**Definition 2.7c (RDF Triple)**: A triple `(s, p, o)` consists of:
+- `s` (subject): the entity being described (a URI or blank node)
+- `p` (predicate): the property or relation (a URI)
+- `o` (object): the value (a URI, blank node, or literal)
+
+**The Semantic Web Vision**:
+
+Tim Berners-Lee's Semantic Web extends this insight:
+
+> "The Semantic Web is not a separate Web but an extension of the current one, 
+> in which information is given well-defined meaning, 
+> better enabling computers and people to work in cooperation."
+> — Berners-Lee, Hendler, Lassila (2001)
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    THE SEMANTIC WEB STACK                           │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│   TRUST / PROOF                     ← Verification, provenance      │
+│        ↑                                                            │
+│   LOGIC / RULES                     ← Inference, reasoning          │
+│        ↑                                                            │
+│   ONTOLOGY (OWL)                    ← Classes, properties, axioms   │
+│        ↑                                                            │
+│   TAXONOMY (RDFS)                   ← Hierarchies, domains, ranges  │
+│        ↑                                                            │
+│   DATA (RDF)                        ← Triples: (s, p, o)            │
+│        ↑                                                            │
+│   IDENTIFIERS (URI)                 ← Naming things globally        │
+│        ↑                                                            │
+│   SYNTAX (XML, JSON-LD, Turtle)     ← Serialization formats         │
+│        ↑                                                            │
+│   TRANSPORT (HTTP)                  ← Moving data                   │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**The Gap That Remains**:
+
+RDF triples are **symbolic** in Peirce's sense—purely conventional, with no iconic or indexical grounding. A triple like:
+
+```
+:Sunset :hasColor :Orange .
+```
+
+Contains no sensory content. It is symbols pointing to symbols. The "orange" in the triple is not the *quale* of orange—the lived experience of seeing a sunset.
+
+This is not a failure of RDF. It is the nature of formal representation. But it means:
+
+**Theorem 2.2c (Representational Limit)**: No finite set of RDF triples can capture the phenomenal content of experience. Formal ontologies describe structure, not qualia.
+
+The Semantic Web gives us **interoperable symbols**. Grounding those symbols in experience remains the hard problem—for humans as for machines.
+
+
 **Why This Matters for AI**:
 
 The grounding problem (Section 2.4.3) is fundamentally a semiotic problem. Current AI systems manipulate **symbols** (Peircean sense)—conventional signs with no intrinsic connection to their referents. They lack:
