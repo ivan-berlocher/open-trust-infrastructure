@@ -94,6 +94,59 @@ The book is organized in four parts:
 
 ---
 
+
+## Related Work and Intellectual Lineage
+
+Each chapter engages with specific research traditions. This section maps the implicit state of the art:
+
+| Chapter | Topic | Key Literature | Position Taken |
+|---------|-------|----------------|----------------|
+| **1. Crisis** | AI Safety & Alignment | Russell (2019), Bostrom (2014), Amodei et al. (2016) | Safety requires architectural transparency, not just behavioral constraints |
+| **2. Language** | Semiotics, Philosophy of Mind | Peirce, Frege, Fodor (1975), Chalmers (1996) | Formal systems capture *quod* (structure), not *qualis* (experience) |
+| **3. Transparency** | Explainable AI (XAI) | Ribeiro et al. (LIME), Lundberg (SHAP), Rudin (2019) | Post-hoc explanations are insufficient; interpretability must be architectural |
+| **4. Architectures** | Cognitive Architectures | ACT-R (Anderson), Soar (Laird), CLARION (Sun) | Proposes minimal constraints for trustworthy cognition |
+| **5. Perception** | Grounding Problem | Harnad (1990), Barsalou, Lakoff & Johnson | Symbol grounding through structured multimodal binding |
+| **6. Learning** | Neural-Symbolic Integration | Garcez et al., Marcus (2018), Bengio (System 2) | Learning as constraint acquisition, not parameter tuning alone |
+| **7. Reasoning** | Formal Logic, Probabilistic Reasoning | McCarthy, Halpern, Pearl (2009) | Hybrid reasoning: logic for structure, probability for uncertainty |
+| **8. Action** | Planning, Agency | STRIPS, PDDL, Bratman (BDI), Wooldridge | Actions as world-state transformations with verifiable preconditions |
+| **9. Memory** | Memory Systems | Tulving, Squire, Semantic Web (RDF/OWL) | Memory as structured retrieval over typed knowledge graphs |
+| **10. Metacognition** | Self-Models, Introspection | Flavell, Nelson, Cox (2005) | Self-representation ≠ self-consciousness; systems model but don't *know* themselves |
+| **11. Integration** | Unified Theories of Cognition | Newell (1990), Anderson (2007) | Integration through common representational substrate |
+| **12. Open Problems** | Research Frontiers | Current ML/AI debates | Identifies gaps between current systems and trustworthy intelligence |
+| **13. Execution** | Systems, Web, Agents | Berners-Lee, W3C, Agentic AI | Web as infrastructure for verifiable multi-agent coordination |
+| **14. Conclusion** | Standards, Governance | W3C model, IEEE, AI Act | Trust requires institutional frameworks, not just technical solutions |
+
+**Key Debates Engaged:**
+
+1. **Symbolic vs. Subsymbolic**: This work argues for hybrid architectures where neural components serve symbolic structures, not replace them.
+
+2. **Interpretability vs. Performance**: We reject the premise of a fundamental tradeoff; proper architecture can achieve both.
+
+3. **Emergence vs. Design**: Trust is designed in, not emergent from scale.
+
+4. **Individual vs. Social AI**: Intelligence is inherently social; isolated agents are incomplete.
+
+5. **Technical vs. Institutional**: Technical transparency requires institutional frameworks to be meaningful.
+
+**What This Book Does Not Do:**
+
+- Does not survey all of machine learning (see Goodfellow et al., Murphy)
+- Does not provide implementation tutorials (see practical frameworks)
+- Does not claim to solve alignment (contributes architectural foundations)
+- Does not dismiss neural approaches (integrates them as components)
+
+**Intended Contribution to the Literature:**
+
+This work sits at the intersection of:
+- **AI Safety** (Russell, Amodei) — providing architectural grounding
+- **Cognitive Science** (Fodor, Anderson) — updating classical frameworks for modern AI
+- **Semantic Web** (Berners-Lee, W3C) — extending to agentic systems
+- **Philosophy of Mind** (Chalmers, Dennett) — clarifying what systems can and cannot achieve
+
+The goal is not to replace these traditions but to synthesize them into a coherent framework for building systems that are powerful, interpretable, and trustworthy.
+
+---
+
 ## Prerequisites
 
 This book assumes familiarity with:
