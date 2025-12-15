@@ -485,6 +485,55 @@ We do not yet have Open Trust systems. What we have:
 
 ---
 
+### 14.11 Use Case: Social Networks and Open Reasoning
+
+The principles developed in this book find immediate application in one of the most contested domains of our time: social media platforms. The central problem is not "AI" per se, but the combination of **large-scale propagation**, **opaque decision-making** (ranking, recommendation, moderation), and **diluted responsibility** ("the system decided").
+
+Open reasoning shifts the question from "true or false?" to:
+
+> *What is being claimed? On what evidence? With what confidence? And who answers for the decision?*
+
+**The architecture:**
+
+```
+┌─────────────┐     ┌──────────────────┐     ┌─────────────────┐     ┌────────────────┐
+│   Content   │ ──▶ │  Claim Extraction │ ──▶ │ Evidence Graph  │ ──▶ │ Reasoning Trace│
+│   (Post)    │     │  (Atomic claims)  │     │ (Sources, dates)│     │ (Why this label)│
+└─────────────┘     └──────────────────┘     └─────────────────┘     └────────────────┘
+                                                                              │
+                                                                              ▼
+                                                                     ┌────────────────┐
+                                                                     │ Action + Audit │
+                                                                     │ (Contestable)  │
+                                                                     └────────────────┘
+```
+
+**Each claim becomes an inspectable object:**
+- Normalized text, author, source chain, timestamp
+- Type: fact, opinion, prediction, satire, testimony
+- Evidence: supporting/contradicting sources with confidence levels
+- Reasoning trace: why the system proposes a label or ranking decision
+
+**"Agents propose, users dispose" in practice:**
+- The agent proposes: *"This claim appears incomplete because..."*
+- The user can: contest, request evidence, report sources, choose filtering mode
+- The platform retains safety control, but decisions become **contestable and traceable**
+
+**What this changes:**
+
+| Traditional Fact-Checking | Open Reasoning Approach |
+|---------------------------|-------------------------|
+| Opaque classification (true/false) | Traceable claim decomposition |
+| Punctual fact-checks | Continuous evidence graphs |
+| Unauditable moderation | Verifiable reasoning traces |
+| "The algorithm decided" | Attributable responsibility |
+
+**Important limit:** Open reasoning does not "solve" truth in gray zones (geopolitics, opinion, rumor). It guarantees something else: *when the system acts, it must make its reasons examinable and its actions auditable.*
+
+This is "say what you do, do what you say" applied to ranking and moderation at scale.
+
+---
+
 ### 14.10 A Final Word
 
 This book has argued for a specific vision of AI:
