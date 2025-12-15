@@ -2,8 +2,17 @@
 
 ---
 
-## Why This Book?
+> *This book is written because I want to understand what intelligence really means when life, experience, and responsibility are involved.*
+>
+> *AI is powerful representation without existential stakes.*
+> *It is self-description without self-knowledge.*
+> *It is intelligence without wisdom.*
+>
+> *The goal of this book is not to diminish AI, but to situate it correctly—within a world where meaning is lived, not computed, and where trust depends on consequences, not performance.*
 
+---
+
+## Why This Book?
 In 1995, Stuart Russell and Peter Norvig published *Artificial Intelligence: A Modern Approach*, a textbook that would define how a generation of researchers and practitioners understood the field. Now in its fourth edition, AIMA remains the canonical introduction to AI: comprehensive, rigorous, and practical.
 
 This book is not a replacement for AIMA. It is a complement.
