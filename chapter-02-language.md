@@ -265,6 +265,111 @@ The grounding of GRASP is a function that takes current state and parameters and
 
 Before formal language theory, a deeper question: what is a **sign**? Semiotics—the study of signs and signification—provides the philosophical foundation for understanding how symbols relate to meaning.
 
+**The Linguistic Pyramid**:
+
+Language operates at multiple levels, each building on the previous:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    THE LINGUISTIC PYRAMID                                │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│                           ▲                                              │
+│                          ╱ ╲                                             │
+│                         ╱   ╲                                            │
+│                        ╱     ╲                                           │
+│                       ╱ PRAGMATICS ╲     Context, intention, speech acts │
+│                      ╱───────────────╲                                   │
+│                     ╱                 ╲                                  │
+│                    ╱    DISCOURSE      ╲    Coherence, reference, topic  │
+│                   ╱─────────────────────╲                                │
+│                  ╱                       ╲                               │
+│                 ╱      SEMANTICS          ╲   Meaning, truth, reference  │
+│                ╱───────────────────────────╲                             │
+│               ╱                             ╲                            │
+│              ╱         SYNTAX                ╲  Grammar, structure       │
+│             ╱─────────────────────────────────╲                          │
+│            ╱                                   ╲                         │
+│           ╱          MORPHOLOGY                 ╲  Word formation        │
+│          ╱───────────────────────────────────────╲                       │
+│         ╱                                         ╲                      │
+│        ╱            PHONOLOGY                      ╲ Sound patterns      │
+│       ╱───────────────────────────────────────────────╲                  │
+│      ╱                                                 ╲                 │
+│     ╱              ALPHABET / PHONEMES                  ╲ Basic units    │
+│    ╱─────────────────────────────────────────────────────╲               │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+| Level | Unit | Studies | Example |
+|-------|------|---------|---------|
+| **Alphabet/Phonemes** | Letters, sounds | Phonetics | /k/, /æ/, /t/ |
+| **Phonology** | Sound patterns | Phonology | "cat" = /kæt/ |
+| **Morphology** | Words, morphemes | Word structure | un-happi-ness |
+| **Syntax** | Sentences | Grammar | "The cat sat on the mat" |
+| **Semantics** | Meaning | Truth conditions | CAT(x) ∧ SAT(x, mat) |
+| **Discourse** | Text | Coherence | Anaphora: "it" refers to "cat" |
+| **Pragmatics** | Context | Intention | "Can you pass the salt?" = request |
+
+**Beyond Pragmatics: Ontology and World Knowledge**:
+
+Above pragmatics lies **ontology**—the structure of what exists:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    THE COMPLETE HIERARCHY                                │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   WORLD KNOWLEDGE    ─── Facts, common sense, causal models             │
+│         ▲                                                                │
+│         │                                                                │
+│   ONTOLOGY           ─── Categories, relations, existence               │
+│         ▲                 (What kinds of things are there?)             │
+│         │                                                                │
+│   PRAGMATICS         ─── Context, intention, social action              │
+│         ▲                 (What are we doing with language?)            │
+│         │                                                                │
+│   SEMANTICS          ─── Meaning, truth, reference                      │
+│         ▲                 (What does it mean?)                          │
+│         │                                                                │
+│   SYNTAX             ─── Structure, grammar, composition                │
+│         ▲                 (How are words combined?)                     │
+│         │                                                                │
+│   LEXICON            ─── Words, morphemes, vocabulary                   │
+│         ▲                 (What are the units?)                         │
+│         │                                                                │
+│   ALPHABET           ─── Symbols, phonemes, graphemes                   │
+│                          (What are the basic marks?)                    │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Key Insight**: Each level requires the levels below it, but cannot be *reduced* to them:
+
+- You cannot derive syntax from alphabet alone
+- You cannot derive semantics from syntax alone (pace early Wittgenstein)
+- You cannot derive pragmatics from semantics alone (Austin, Searle)
+- You cannot derive ontology from language alone (the world constrains meaning)
+
+**The AI Challenge at Each Level**:
+
+| Level | Classical AI | Neural AI | Gap |
+|-------|--------------|-----------|-----|
+| Alphabet | Perfect | Perfect | ✓ |
+| Syntax | Good (parsers) | Excellent | ✓ |
+| Semantics | Formal but brittle | Statistical patterns | Grounding |
+| Pragmatics | Rule-based | Implicit in training | Intention |
+| Ontology | Hand-crafted | Implicit, inconsistent | Coherence |
+| World | Incomplete | Hallucinated | Reality |
+
+Current LLMs operate primarily at syntax and statistical semantics. They lack:
+- Grounded semantics (connection to world)
+- True pragmatics (understanding intention, not just pattern)
+- Coherent ontology (consistent model of what exists)
+- Verified world knowledge (facts vs. plausible fabrication)
+
+
 **Two Traditions**:
 
 **Ferdinand de Saussure** (1857–1913) defined the sign as a dyadic relation:
@@ -421,6 +526,150 @@ The grounding functions defined earlier (Definitions 2.6, 2.7) provide exactly t
 ### 2.5 Formal Language Theory
 
 Before describing operations over LoT, we must establish the mathematical foundations of formal languages. This section introduces the essential theory that underlies all structured representation.
+
+**Language as Living System vs. Formal System**:
+
+We must distinguish two fundamentally different notions of "language":
+
+| Aspect | Natural Language | Formal Language |
+|--------|------------------|-----------------|
+| **Carrier** | Human communities | Mathematical definition |
+| **Evolution** | Lives, changes, dies | Fixed once defined |
+| **Correctness** | Speaker judgment | Formal derivation |
+| **Meaning** | Embodied, contextual | Assigned interpretation |
+| **Examples** | English, Swahili, ASL | Regex, FOL, Python |
+
+Natural languages are **alive**—carried by humans, evolving through use, dying when communities disappear. Formal languages are **crystallized**—defined by rules, unchanging, existing independently of any speaker.
+
+Yet both share the fundamental property of **structure**: not all combinations are valid.
+
+**The Power Hierarchy of Formal Languages**:
+
+Different formal systems have different **expressive power**—what they can and cannot represent:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│              EXPRESSIVE POWER: WHAT CAN BE SAID?                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   TURING COMPLETE ──────────────────────────────────────────────────    │
+│   │  Anything computable                                                 │
+│   │  Python, C, Lambda calculus, Turing machines                        │
+│   │                                                                      │
+│   │  CAN EXPRESS: Any algorithm, recursion, self-reference              │
+│   │  COST: Undecidable (halting problem)                                │
+│   │                                                                      │
+│   CONTEXT-SENSITIVE ────────────────────────────────────────────────    │
+│   │  aⁿbⁿcⁿ patterns                                                     │
+│   │  Some natural language phenomena                                    │
+│   │                                                                      │
+│   │  CAN EXPRESS: Cross-serial dependencies                             │
+│   │  COST: PSPACE complexity for recognition                            │
+│   │                                                                      │
+│   CONTEXT-FREE ─────────────────────────────────────────────────────    │
+│   │  Nested structure, recursion                                        │
+│   │  Most programming language syntax, arithmetic                       │
+│   │                                                                      │
+│   │  CAN EXPRESS: Balanced brackets, parse trees                        │
+│   │  COST: O(n³) parsing (CYK), O(n) for deterministic                  │
+│   │                                                                      │
+│   REGULAR ──────────────────────────────────────────────────────────    │
+│   │  Patterns without memory                                            │
+│   │  Email validation, lexical tokens                                   │
+│   │                                                                      │
+│   │  CAN EXPRESS: Finite repetition, alternation                        │
+│   │  COST: O(n) recognition, minimal memory                             │
+│   │                                                                      │
+│   FINITE ───────────────────────────────────────────────────────────    │
+│      Fixed set of strings                                               │
+│      Keyword lists, enumerated types                                    │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**The Trade-off**: More power = more expressiveness = harder to analyze
+
+| Class | Can Express | Cannot Express | Decidable? |
+|-------|-------------|----------------|------------|
+| Regular | `a*b+`, email patterns | Balanced parens | ✓ All properties |
+| Context-Free | ((nested)), arithmetic | aⁿbⁿcⁿ | ✓ Membership, ✗ Equivalence |
+| Context-Sensitive | Cross-serial deps | Some Turing-complete | ✓ Membership |
+| Turing-Complete | Everything computable | — | ✗ Halting problem |
+
+**Mathematics as Formal Language**:
+
+Mathematical notation is itself a formal language—perhaps the most successful one ever invented:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│              MATHEMATICAL LANGUAGE                                       │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   ALPHABET:    0-9, +, -, ×, ÷, =, <, >, ∈, ∀, ∃, ∧, ∨, ¬, →, ...      │
+│                                                                          │
+│   TERMS:       Variables (x, y), Constants (0, 1, π)                    │
+│                Functions: f(x), sin(θ), ∫f(x)dx                         │
+│                                                                          │
+│   FORMULAS:    Equations: x² + y² = r²                                  │
+│                Inequalities: ∀ε>0 ∃δ>0 : |x-a|<δ → |f(x)-L|<ε          │
+│                                                                          │
+│   PROOFS:      Sequences of formulas following inference rules          │
+│                                                                          │
+│   POWER:       First-order logic ≈ Recursively Enumerable               │
+│                Arithmetic is incomplete (Gödel)                          │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Why Mathematics Works**:
+
+Mathematical language succeeds because it is:
+- **Precise**: No ambiguity in well-formed expressions
+- **Universal**: "∀x∃y" means the same in Tokyo and Paris
+- **Compositional**: Complex formulas built from simple parts
+- **Verifiable**: Proofs can be checked mechanically
+
+But mathematics is **not natural language**:
+- No native speakers
+- No evolution through use
+- No embodied meaning
+- No pragmatics (no "can you prove the Riemann hypothesis?")
+
+**Programming Languages: Executable Formal Languages**:
+
+Programming languages add **execution** to formal language:
+
+| Language Type | Example | Expressiveness | Purpose |
+|---------------|---------|----------------|---------|
+| Query (Regular) | SQL SELECT | Limited | Data retrieval |
+| Markup (CF) | HTML, JSON | Nested structure | Data description |
+| Scripting (Turing) | Python, JS | Full | General computation |
+| Proof (Typed) | Coq, Agda | Constructive logic | Verified programs |
+
+**Regular Expressions in Practice**:
+
+Despite limited power, regex is ubiquitous because it's **good enough** for many tasks:
+
+```
+Pattern: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+Matches: user@domain.com, name.surname@company.co.uk
+Rejects: @invalid, no-at-sign.com, user@.com
+
+Power: Regular (Type 3)
+Cannot: Validate that domain actually exists (requires world knowledge)
+```
+
+**The Complexity Lesson**:
+
+Choose the **weakest language** sufficient for your task:
+- Configuration? Use declarative format (JSON, YAML)
+- Pattern matching? Use regex
+- Nested structure? Use CFG-based parser
+- General computation? Only then use Turing-complete
+
+More power is not better. It's more dangerous—harder to analyze, verify, and secure.
+
 
 #### 2.5.1 The Chomsky Hierarchy
 
